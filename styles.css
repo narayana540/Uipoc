@@ -153,7 +153,7 @@ footer{
     margin-top: auto;
     margin-bottom: auto;
 }
-/* .footer-section .know-more a{
+.footer-section .know-more a{
     text-decoration: none;
     padding-top: 5px;
     padding-right: 40px;
@@ -164,12 +164,11 @@ footer{
     font-size: 20px;
     font-family: avenir-light;
     border: 1px solid whitesmoke;
-} */
-.footer-section .info-section p{
-    color: #a5a5a5;
+}
+.footer-section .infosection p{
+    color: white;
     font-size: 18px;
     text-align: center;
-    font-family: avenir-Light;
     padding-bottom: 50px;
     padding-top: 50px;
 }
