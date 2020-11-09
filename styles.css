@@ -46,6 +46,13 @@ nav a{
     font-size: 40px;
     text-transform: uppercase;
 }
+.design-info-overlay{
+    opacity: 1;
+}
+.design-info-overlay:hover{
+    opacity: 0.5;
+    transform: scale(1.1);
+}
 .fancylinedevider{
     height: 5px;
     width:130px;
@@ -120,12 +127,13 @@ nav a{
    text-decoration: none;
    color:black;
 }
+
 footer{
     background-color:black !important;
 }
-.footer-section{
+/* .footer-section{
     padding-bottom:100px ;
-}
+} */
 .rounded-img{
     height:150px;
 }
@@ -180,7 +188,9 @@ footer{
 .footer-section .copy-right p{
     font-size: 18px;
     color: #797979;
-    margin-top:100px
+    margin-top:50px;
+    padding: 10px;
+    margin-bottom: 0px;
 }
 
 
